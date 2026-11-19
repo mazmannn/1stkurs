@@ -1,4 +1,4 @@
-
+#include<stdio.h>
 void bubble_sort(int a[], int n)
 {
     for (int i = 0; i < n - 1; i++) {
@@ -10,4 +10,12 @@ void bubble_sort(int a[], int n)
             }
         }
     }
+}
+void main(){
+int a[] = {2, 0};
+bubble_sort(a, 3);
+
+
+
+return 0;
 }
